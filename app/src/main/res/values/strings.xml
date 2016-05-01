@@ -1,9 +1,15 @@
 <resources>
+    <!-- Nombre de la aplicacion -->
     <string name="app_name">DBApplication</string>
-    <!--DataSource del spinner-->
+    <!-- DataSource del spinner -->
     <array name="faculties_datasource">
         <item>Engineering</item>
         <item>Business</item>
         <item>Arts</item>
     </array>
+    <!-- Activity_main.xml -->
+    <string name="txtTitle">Students Database</string>
+    <string name="edtHint">Student</string>
+    <string name="btnAddText">Add student</string>
+    <string name="btnDeleteText">Delete all engineering students</string>
 </resources>

@@ -12,7 +12,7 @@
         android:gravity="center"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:text="Students Database"
+        android:text="@string/txtTitle"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:textSize="22sp"/>
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="Student" />
+        android:hint="@string/edtHint" />
     <!-- Facultades -->
     <Spinner
         android:id="@+id/spnFaculties"
@@ -37,7 +37,7 @@
         android:background="@color/colorPrimary"
         android:textColor="#fafafa"
         android:layout_marginTop="5dp"
-        android:text="Add student"/>
+        android:text="@string/btnAddText"/>
     <!-- Borrar -->
     <Button
         android:id="@+id/btnDelete_Student"
@@ -46,7 +46,7 @@
         android:textColor="#fafafa"
         android:background="@color/colorPrimary"
         android:layout_marginTop="5dp"
-        android:text="Delete all engineering students"/>
+        android:text="@string/btnDeleteText"/>
     <!-- Listado -->
     <ListView
         android:id="@+id/lstStudents_List"
