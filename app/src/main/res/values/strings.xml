@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DBApplication</string>
+    <!--DataSource del spinner-->
+    <array name="faculties_datasource">
+        <item>Engineering</item>
+        <item>Business</item>
+        <item>Arts</item>
+    </array>
+</resources>

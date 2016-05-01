@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.rodrigo.dbapplication.MainActivity">
+
+    <!-- Titulo -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Students Database"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"/>
+    <!-- Campo de entrada -->
+    <EditText
+        android:id="@+id/edtStudent_Name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Student" />
+    <!-- Facultades -->
+    <Spinner
+        android:id="@+id/spnFaculties"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"/>
+    <!-- Agregar -->
+    <Button
+        android:id="@+id/btnAdd_Student"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#fafafa"
+        android:layout_marginTop="5dp"
+        android:text="Add student"/>
+    <!-- Borrar -->
+    <Button
+        android:id="@+id/btnDelete_Student"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fafafa"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:text="Delete all engineering students"/>
+    <!-- Listado -->
+    <ListView
+        android:id="@+id/lstStudents_List"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
